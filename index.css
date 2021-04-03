@@ -1,0 +1,28 @@
+body {
+  background-image: url(Images/silverware.jpg);
+  width: 100%;
+  height: 100%;
+}
+p {
+  text-align: center;
+  color: rgb(204, 144, 55);
+  font-family: cursive;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-size-adjust: 40pt;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(204, 144, 55);
+  font-family: cursive;
+}
+h2 {
+  text-align: center;
+  color: rgb(204, 144, 55);
+  font-family: cursive;
+}
+a {
+  color: rgb(164, 164, 0);
+  margin-left: 540px;
+}

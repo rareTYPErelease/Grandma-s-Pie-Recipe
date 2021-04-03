@@ -1,0 +1,74 @@
+h1 {
+  text-decoration: underline;
+  text-align: center;
+  text-size-adjust: 22pt;
+  color: rgb(164, 164, 0);
+  background-color: rgb(240, 240, 240);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  text-decoration: underline;
+  text-align: left;
+  text-size-adjust: 18pt;
+  font-weight: normal;
+  color: rgb(164, 164, 0);
+  background-color: rgb(240, 240, 240);
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: rgb(164, 164, 0);
+}
+
+body {
+  color: rgb(64, 64, 64);
+  text-size-adjust: 11pt;
+  font-family: "Georgia,Garamond";
+  background-image: url(Images/silverware.jpg);
+  background-attachment: fixed;
+}
+ul {
+  list-style-image: url("Images/pie_icon.gif");
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+blockquote {
+  background-color: #ffffa8;
+  font-style: italic;
+}
